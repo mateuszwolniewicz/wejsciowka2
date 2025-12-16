@@ -1,6 +1,6 @@
 ---
 title: "Case Study: Analiza danych o samochodach"
-author: "Imię Nazwisko studenta"
+author: "Mateusz Wolniewicz"
 date: "`r Sys.Date()`"
 output: html_document
 ---
@@ -15,7 +15,7 @@ knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
 
 ```{r load_data}
 # Wczytaj dane mtcars (są już dostępne w bazowym R)
-data(mcars)
+data(mtcars)
 
 # Wyświetl pierwsze 6 wierszy
 head(data, n = 6)
